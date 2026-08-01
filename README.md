@@ -271,15 +271,6 @@ If you plan to extend this repo, consider adding:
 - YOLOv8 / Ultralytics ecosystem for training and evaluation pipeline.
 - Standard object detection metrics: Precision, Recall, mAP.
 
----
-
-## 11. Quick Links (Repo Files)
-
-- Notebook: `multiple-corn-disease.ipynb`  
-- Report: `Corn Disease Detection - Report.pdf`  
-- Results plots: `results/`  
-- Best weights: `best.pt.zip`  
-- Baseline weights and model: `yolov8n.pt.zip`  
 
 ---
 
