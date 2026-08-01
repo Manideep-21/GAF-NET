@@ -8,8 +8,6 @@ This project presents an end‑to‑end object detection pipeline for **multi‑
 
 It includes:
 - A complete **execution notebook**: `multiple-corn-disease.ipynb`
-- A full **project report (PDF)**: `Corn Disease Detection - Report.pdf`
-- Trained **weights** (`best.pt.zip`) and baseline weights (`yolov8n.pt.zip`)
 - A `results/` folder containing all major **plots and evaluation visualizations**.
 
 ---
@@ -54,11 +52,7 @@ Corn leaf diseases significantly reduce yield and quality. Manual scouting is ti
   - Results analysis and discussion
   - Conclusions & future scope
 
-### 3.3 Weights
-- **`best.pt.zip`**: best trained checkpoint for the proposed model (GAF‑Net)  
-- **`yolov8n.pt.zip`**: baseline pretrained YOLOv8n weights archive
-
-### 3.4 Results (Plots)
+### 3.3 Results (Plots)
 All key plots are in `results/`:
 
 - `results/plot_full_dashboard.png`  
@@ -250,28 +244,5 @@ This section summarizes the class-wise correct detections and notable confusions
 
 ---
 
-## 9. Artifacts and Reproducibility
-
-### Included artifacts
-- Final weights: `best.pt.zip`
-- Visuals: `results/*.png`
-- Full documentation: `Corn Disease Detection - Report.pdf`
-
-### Suggested additions (optional but recommended)
-If you plan to extend this repo, consider adding:
-- `requirements.txt`
-- dataset YAML sample (e.g., `data.yaml`)
-- inference script for images/videos
-- a small demo folder with example images
-
----
-
-## 10. Citation / Acknowledgements
-
-- YOLOv8 / Ultralytics ecosystem for training and evaluation pipeline.
-- Standard object detection metrics: Precision, Recall, mAP.
-
-
----
 
 
